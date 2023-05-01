@@ -209,7 +209,7 @@ Here, we do similar to the step 14. Commit message is also proposed: "Update bu
 For this step, we go back to our terminal to type a git pull command. We mention which exact branch we want to be pulled to the local JSON repo:
 % git pull origin main
 As a result, we have command successfully executed, with a notification that our new file bug_report.json has been added.
-remote: Enumerating objects: 7, done.
+' remote: Enumerating objects: 7, done.
 remote: Counting objects: 100% (7/7), done.
 remote: Compressing objects: 100% (6/6), done.
 remote: Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
@@ -221,6 +221,8 @@ Updating 9aa97c8..e97fe8d
 Fast-forward
  bug_report.json | 25 +++++++++++++++++++++++++
  1 file changed, 25 insertions(+)
- create mode 100644 bug_report.json
+ create mode 100644 bug_report.json '
 
 _Note: We can also make sure the file is added by using ls command (see the list of the files in working directory), or we can straightly open the new file by cat command.
+
+
