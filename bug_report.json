@@ -11,7 +11,7 @@
     "2. Click button Education on the dropdown Navbar",
     "3. Scroll down to the block Learn how to trade",
     "4. Click link 3 Stock market exchanges in the block Learn how to trade”,
-    "5. Select the language DE, RO, DA, HU, SK, FI"
+    "5. Select the language DE, RO, DA, HU, SK, FI",
     ],
    "Precondition": "None",
    "ExpectedResult": "The quiz answers are displayed in the selected language",
