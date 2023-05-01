@@ -1,0 +1,23 @@
+{
+  "ID": 62,
+  "Severity": "minor",
+  "Priority": "low",
+  "Title": "The quiz answer options are displayed in English in the box [Test yourself] of the Block [Stock market exchanges] when languages DE, RO, DA, HU, SK, FI are selected ",
+  "Environment": [
+    "Windows 10 Chrome 112"
+    ],
+  "StepsToReproduce": [
+    "1. Navigate to capital.com",
+    "2. Click button [Education] on the dropdown [Navbar]",
+    "3. Scroll down to the block [Learn how to trade]",
+    "4. Click link [3 Stock market exchanges] in the block [Learn how to trade]”,
+    "5. Select the language DE, RO, DA, HU, SK, FI"
+    ],
+   "Precondition": "None",
+   "ExpectedResult": "The quiz answers are displayed in the selected language",
+   "ActualResult": "The quiz answer options are displayed in English",
+   "Attachment": "(URL to the video)",
+   "Postcondition": "None",
+   "Reproducibility": "N/a",
+   "Author": "ArtiomMironov"
+}
